@@ -1,0 +1,51 @@
+html,
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+html {
+	background: hsl(48, 100%, 67%);
+}
+
+pre,
+code {
+	font-family: 'Fira Mono', monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+}
+
+span[title] {
+	cursor: help;
+	font-style: italic;
+	border-bottom: 1px dotted;
+}
+
+.navbar {
+	text-transform: uppercase;
+	.navbar-menu {
+		.navbar-start,
+		.navbar-end {
+			> .navbar-item {
+				font-family: 'Roboto Condensed', sans-serif;
+			}
+		}
+	}
+}
+
+#scrollToTop {
+	display: none;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	a {
+		display: block;
+	}
+}
